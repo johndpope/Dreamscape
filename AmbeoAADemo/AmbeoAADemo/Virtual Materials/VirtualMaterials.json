@@ -1,0 +1,33 @@
+[
+     {
+         "materialName": "carpet_heavy",
+         "displayName": "Carpet",
+         "fileName": "Carpet"
+     },
+     {
+        "materialName": "heavy_velour",
+        "displayName": "Drapes",
+        "fileName": "Drapes"
+     },
+    {
+        "materialName": "gypsum_board",
+        "displayName": "Wood",
+        "fileName": "Wood"
+    },
+    {
+        "materialName": "brick_unglazed",
+        "displayName": "Brick",
+        "fileName": "Brick"
+    },
+    {
+        "materialName": "unchanged",
+        "displayName": "Glass",
+        "fileName": "Glass"
+    },
+    {
+        "materialName": "off",
+        "displayName": "Off",
+        "fileName": "Off"
+    },
+]
+ 

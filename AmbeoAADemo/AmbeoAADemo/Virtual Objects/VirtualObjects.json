@@ -1,0 +1,39 @@
+[
+    {
+        "modelName": "vocal",
+        "displayName": "Vocal",
+        "audioFile": ["Voc.mp3"],
+        "allowedAlignments": [ "horizontal" ]
+    },
+    {
+        "modelName": "guitar",
+        "displayName": "Guitar",
+        "audioFile": ["Git.mp3"],
+        "allowedAlignments": [ "horizontal" ]
+    },
+    {
+        "modelName": "bass",
+        "displayName": "Bass",
+        "audioFile": ["Bass.mp3"],
+        "allowedAlignments": [ "horizontal" ]
+    },
+    {
+        "modelName": "synth",
+        "displayName": "Synth",
+        "audioFile": ["Synth.mp3"],
+        "allowedAlignments": [ "horizontal" ]
+    },
+     {
+        "modelName": "brass",
+        "displayName": "Brass",
+        "audioFile": ["Brass.mp3"],
+        "allowedAlignments": [ "horizontal" ]
+     },
+    {
+        "modelName": "drum",
+        "displayName": "Drum",
+        "audioFile": ["Drum.mp3"],
+        "allowedAlignments": [ "horizontal" ]
+    },
+]
+ 

@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A90F1831DE89F6800F27839 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A90F1821DE89F6800F27839 /* CoreBluetooth.framework */; };
+		6E3D9B1120A080D8005A74E8 /* Leia.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6E3D9B0320A080D8005A74E8 /* Leia.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6E3D9B2420A0813F005A74E8 /* LeiaAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3D9B1D20A0813E005A74E8 /* LeiaAudioUnit.m */; };
+		6E3D9B2520A0813F005A74E8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3D9B1F20A0813E005A74E8 /* MainInterface.storyboard */; };
+		6E3D9B2720A0813F005A74E8 /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3D9B2320A0813E005A74E8 /* AudioUnitViewController.swift */; };
+		6E3D9B2920A096F4005A74E8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3D9B2820A096F4005A74E8 /* AVFoundation.framework */; };
+		6E3D9B3B20A0A430005A74E8 /* NoiseBurstPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3D9B3920A0A42D005A74E8 /* NoiseBurstPlayer.swift */; };
+		6E3D9B3E20A0B8CC005A74E8 /* LeiaAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3D9B1D20A0813E005A74E8 /* LeiaAudioUnit.m */; };
+		6E3D9B4120A0BFF9005A74E8 /* NoiseBurst.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6E3D9B4020A0BFF8005A74E8 /* NoiseBurst.m4a */; };
+		6E78781C20AAC44700151BB7 /* libSennheiserAmbeoLeia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E78781B20AAC44700151BB7 /* libSennheiserAmbeoLeia.a */; };
+		6E78781D20AAC46400151BB7 /* libSennheiserAmbeoLeia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E78781B20AAC44700151BB7 /* libSennheiserAmbeoLeia.a */; };
+		6E78781F20AAC4D000151BB7 /* BLEHeadtracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E78781E20AAC4D000151BB7 /* BLEHeadtracker.framework */; };
+		6E78782020AAC5DA00151BB7 /* BLEHeadtracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E78781E20AAC4D000151BB7 /* BLEHeadtracker.framework */; };
+		6E78782120AAC5DA00151BB7 /* BLEHeadtracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E78781E20AAC4D000151BB7 /* BLEHeadtracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6EE499A92091F28B007A65E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE499A22091F28B007A65E2 /* Assets.xcassets */; };
+		6EE499B82091F2DC007A65E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE499B52091F2DC007A65E2 /* ViewController.swift */; };
+		6EE499B92091F2DC007A65E2 /* HeadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE499B62091F2DC007A65E2 /* HeadViewController.swift */; };
+		6EE499BA2091F2DC007A65E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE499B72091F2DC007A65E2 /* AppDelegate.swift */; };
+		6EE499BE2091F2DF007A65E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE499BC2091F2DF007A65E2 /* LaunchScreen.storyboard */; };
+		6EE499BF2091F2DF007A65E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE499BD2091F2DF007A65E2 /* Main.storyboard */; };
+		6EE499C42091F79E007A65E2 /* HeadNose-x.scn in Resources */ = {isa = PBXBuildFile; fileRef = 6EE499C32091F79E007A65E2 /* HeadNose-x.scn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E3D9B0F20A080D8005A74E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A90F1481DE89F4300F27839 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E3D9B0220A080D8005A74E8;
+			remoteInfo = Leia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6E3D9AFE20A08089005A74E8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6E3D9B1120A080D8005A74E8 /* Leia.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE499952091EC12007A65E2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6E78782120AAC5DA00151BB7 /* BLEHeadtracker.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6A90F1501DE89F4300F27839 /* HeadTrackerReceiver_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeadTrackerReceiver_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A90F1821DE89F6800F27839 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		6E3D9B0320A080D8005A74E8 /* Leia.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Leia.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3D9B1C20A0813E005A74E8 /* Leia-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Leia-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E3D9B1D20A0813E005A74E8 /* LeiaAudioUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeiaAudioUnit.m; sourceTree = "<group>"; };
+		6E3D9B2020A0813E005A74E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		6E3D9B2120A0813E005A74E8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3D9B2220A0813E005A74E8 /* LeiaAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeiaAudioUnit.h; sourceTree = "<group>"; };
+		6E3D9B2320A0813E005A74E8 /* AudioUnitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioUnitViewController.swift; sourceTree = "<group>"; };
+		6E3D9B2820A096F4005A74E8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6E3D9B3920A0A42D005A74E8 /* NoiseBurstPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoiseBurstPlayer.swift; sourceTree = "<group>"; };
+		6E3D9B4020A0BFF8005A74E8 /* NoiseBurst.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = NoiseBurst.m4a; sourceTree = "<group>"; };
+		6E78781A20AAC44700151BB7 /* SennheiserAmbeoLeia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SennheiserAmbeoLeia.h; path = ../../Leia/SennheiserAmbeoLeia.h; sourceTree = "<group>"; };
+		6E78781B20AAC44700151BB7 /* libSennheiserAmbeoLeia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSennheiserAmbeoLeia.a; path = "../../Leia/Release-NOSIMD-iphoneos/libSennheiserAmbeoLeia.a"; sourceTree = "<group>"; };
+		6E78781E20AAC4D000151BB7 /* BLEHeadtracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BLEHeadtracker.framework; path = ../BLEHeadtracker.framework; sourceTree = "<group>"; };
+		6EE499A22091F28B007A65E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EE499A82091F28B007A65E2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE499B52091F2DC007A65E2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EE499B62091F2DC007A65E2 /* HeadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadViewController.swift; sourceTree = "<group>"; };
+		6EE499B72091F2DC007A65E2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EE499BC2091F2DF007A65E2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EE499BD2091F2DF007A65E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6EE499C32091F79E007A65E2 /* HeadNose-x.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "HeadNose-x.scn"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A90F14D1DE89F4300F27839 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A90F1831DE89F6800F27839 /* CoreBluetooth.framework in Frameworks */,
+				6E78782020AAC5DA00151BB7 /* BLEHeadtracker.framework in Frameworks */,
+				6E78781C20AAC44700151BB7 /* libSennheiserAmbeoLeia.a in Frameworks */,
+				6E78781F20AAC4D000151BB7 /* BLEHeadtracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3D9B0020A080D8005A74E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3D9B2920A096F4005A74E8 /* AVFoundation.framework in Frameworks */,
+				6E78781D20AAC46400151BB7 /* libSennheiserAmbeoLeia.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A90F1471DE89F4300F27839 = {
+			isa = PBXGroup;
+			children = (
+				6EE499B42091F2DC007A65E2 /* Source */,
+				6EE499BB2091F2DF007A65E2 /* Storyboards */,
+				6EE499A12091F28B007A65E2 /* Resources */,
+				6E3D9ADE20A07238005A74E8 /* LeiaAudioUnit */,
+				6A90F1511DE89F4300F27839 /* Products */,
+				6A90F1811DE89F6800F27839 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A90F1511DE89F4300F27839 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A90F1501DE89F4300F27839 /* HeadTrackerReceiver_iOS.app */,
+				6E3D9B0320A080D8005A74E8 /* Leia.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A90F1811DE89F6800F27839 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E78781E20AAC4D000151BB7 /* BLEHeadtracker.framework */,
+				6E3D9B2820A096F4005A74E8 /* AVFoundation.framework */,
+				6A90F1821DE89F6800F27839 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E3D9ADE20A07238005A74E8 /* LeiaAudioUnit */ = {
+			isa = PBXGroup;
+			children = (
+				6E3D9B1720A080E9005A74E8 /* LibLeia */,
+				6E3D9B2320A0813E005A74E8 /* AudioUnitViewController.swift */,
+				6E3D9B1E20A0813E005A74E8 /* Base.lproj */,
+				6E3D9B2120A0813E005A74E8 /* Info.plist */,
+				6E3D9B2220A0813E005A74E8 /* LeiaAudioUnit.h */,
+				6E3D9B1D20A0813E005A74E8 /* LeiaAudioUnit.m */,
+				6E3D9B1C20A0813E005A74E8 /* Leia-Bridging-Header.h */,
+			);
+			path = LeiaAudioUnit;
+			sourceTree = SOURCE_ROOT;
+		};
+		6E3D9B1720A080E9005A74E8 /* LibLeia */ = {
+			isa = PBXGroup;
+			children = (
+				6E78781B20AAC44700151BB7 /* libSennheiserAmbeoLeia.a */,
+				6E78781A20AAC44700151BB7 /* SennheiserAmbeoLeia.h */,
+			);
+			name = LibLeia;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6E3D9B1E20A0813E005A74E8 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				6E3D9B1F20A0813E005A74E8 /* MainInterface.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		6EE499A12091F28B007A65E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E3D9B4020A0BFF8005A74E8 /* NoiseBurst.m4a */,
+				6EE499C32091F79E007A65E2 /* HeadNose-x.scn */,
+				6EE499A22091F28B007A65E2 /* Assets.xcassets */,
+				6EE499A82091F28B007A65E2 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6EE499B42091F2DC007A65E2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6EE499B52091F2DC007A65E2 /* ViewController.swift */,
+				6EE499B62091F2DC007A65E2 /* HeadViewController.swift */,
+				6E3D9B3920A0A42D005A74E8 /* NoiseBurstPlayer.swift */,
+				6EE499B72091F2DC007A65E2 /* AppDelegate.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6EE499BB2091F2DF007A65E2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6EE499BC2091F2DF007A65E2 /* LaunchScreen.storyboard */,
+				6EE499BD2091F2DF007A65E2 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A90F14F1DE89F4300F27839 /* HeadTrackerReceiver_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A90F1781DE89F4300F27839 /* Build configuration list for PBXNativeTarget "HeadTrackerReceiver_iOS" */;
+			buildPhases = (
+				6A90F14C1DE89F4300F27839 /* Sources */,
+				6A90F14D1DE89F4300F27839 /* Frameworks */,
+				6A90F14E1DE89F4300F27839 /* Resources */,
+				6EE499952091EC12007A65E2 /* Embed Frameworks */,
+				6E3D9AFE20A08089005A74E8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E3D9B1020A080D8005A74E8 /* PBXTargetDependency */,
+			);
+			name = HeadTrackerReceiver_iOS;
+			productName = BLECentral;
+			productReference = 6A90F1501DE89F4300F27839 /* HeadTrackerReceiver_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E3D9B0220A080D8005A74E8 /* Leia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3D9B1220A080D8005A74E8 /* Build configuration list for PBXNativeTarget "Leia" */;
+			buildPhases = (
+				6E3D9AFF20A080D8005A74E8 /* Sources */,
+				6E3D9B0020A080D8005A74E8 /* Frameworks */,
+				6E3D9B0120A080D8005A74E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leia;
+			productName = Leia;
+			productReference = 6E3D9B0320A080D8005A74E8 /* Leia.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A90F1481DE89F4300F27839 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Renato Pellegrini";
+				TargetAttributes = {
+					6A90F14F1DE89F4300F27839 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XKNNU9WTL7;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
+					6E3D9B0220A080D8005A74E8 = {
+						CreatedOnToolsVersion = 9.3;
+						DevelopmentTeam = XKNNU9WTL7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6A90F14B1DE89F4300F27839 /* Build configuration list for PBXProject "HeadTrackerReceiver_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A90F1471DE89F4300F27839;
+			productRefGroup = 6A90F1511DE89F4300F27839 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A90F14F1DE89F4300F27839 /* HeadTrackerReceiver_iOS */,
+				6E3D9B0220A080D8005A74E8 /* Leia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A90F14E1DE89F4300F27839 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE499C42091F79E007A65E2 /* HeadNose-x.scn in Resources */,
+				6EE499A92091F28B007A65E2 /* Assets.xcassets in Resources */,
+				6EE499BF2091F2DF007A65E2 /* Main.storyboard in Resources */,
+				6E3D9B4120A0BFF9005A74E8 /* NoiseBurst.m4a in Resources */,
+				6EE499BE2091F2DF007A65E2 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3D9B0120A080D8005A74E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3D9B2520A0813F005A74E8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A90F14C1DE89F4300F27839 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE499BA2091F2DC007A65E2 /* AppDelegate.swift in Sources */,
+				6E3D9B3B20A0A430005A74E8 /* NoiseBurstPlayer.swift in Sources */,
+				6E3D9B3E20A0B8CC005A74E8 /* LeiaAudioUnit.m in Sources */,
+				6EE499B92091F2DC007A65E2 /* HeadViewController.swift in Sources */,
+				6EE499B82091F2DC007A65E2 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E3D9AFF20A080D8005A74E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3D9B2420A0813F005A74E8 /* LeiaAudioUnit.m in Sources */,
+				6E3D9B2720A0813F005A74E8 /* AudioUnitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E3D9B1020A080D8005A74E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E3D9B0220A080D8005A74E8 /* Leia */;
+			targetProxy = 6E3D9B0F20A080D8005A74E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E3D9B1F20A0813E005A74E8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3D9B2020A0813E005A74E8 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A90F1761DE89F4300F27839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A90F1771DE89F4300F27839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A90F1791DE89F4300F27839 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = XKNNU9WTL7;
+				FRAMEWORK_SEARCH_PATHS = $PROJECT_DIR/../;
+				HEADER_SEARCH_PATHS = $SRCROOT/LeiaAudioUnit;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../Leia/Release-NOSIMD-iphoneos",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sennheiser.headtracker-receiver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/LeiaAudioUnit/Leia-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		6A90F17A1DE89F4300F27839 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = XKNNU9WTL7;
+				FRAMEWORK_SEARCH_PATHS = $PROJECT_DIR/../;
+				HEADER_SEARCH_PATHS = $SRCROOT/LeiaAudioUnit;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../Leia/Release-NOSIMD-iphoneos",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sennheiser.headtracker-receiver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/LeiaAudioUnit/Leia-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		6E3D9B1320A080D8005A74E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XKNNU9WTL7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "$(SRCROOT)/LeiaAudioUnit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../Leia/Release-NOSIMD-iphoneos",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sennheiser.headtracker-receiver.Leia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/LeiaAudioUnit/Leia-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E3D9B1420A080D8005A74E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XKNNU9WTL7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "$(SRCROOT)/LeiaAudioUnit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../Leia/Release-NOSIMD-iphoneos",
+				);
+				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sennheiser.headtracker-receiver.Leia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/LeiaAudioUnit/Leia-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A90F14B1DE89F4300F27839 /* Build configuration list for PBXProject "HeadTrackerReceiver_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A90F1761DE89F4300F27839 /* Debug */,
+				6A90F1771DE89F4300F27839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A90F1781DE89F4300F27839 /* Build configuration list for PBXNativeTarget "HeadTrackerReceiver_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A90F1791DE89F4300F27839 /* Debug */,
+				6A90F17A1DE89F4300F27839 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3D9B1220A080D8005A74E8 /* Build configuration list for PBXNativeTarget "Leia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3D9B1320A080D8005A74E8 /* Debug */,
+				6E3D9B1420A080D8005A74E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A90F1481DE89F4300F27839 /* Project object */;
+}
